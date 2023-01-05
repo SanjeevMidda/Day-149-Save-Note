@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    font-weight: 300;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(161, 161, 161);
+    text-align: center;
+    border-radius: 40px 40px;
+    border: 1px solid rgb(197, 197, 197);
+    margin-top: 50px;
+}
+
+.container{
+    height: 100vh;
+    width: 90vw;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.boxStyling{
+    height:200px;
+    width: 200px;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 20px 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    color: orangered;
+}
